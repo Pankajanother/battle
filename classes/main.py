@@ -15,7 +15,7 @@ print(bcolors.FAIL + bcolors.BOLD + "AN ENEMY ATTACKS!" + bcolors.ENDC )
 
 while running:
     print ("==============================")
-    player.choose_magic()
+    player.choose_action()
     choice = input("Choose action :")
     index  = int(choice) - 1
 
